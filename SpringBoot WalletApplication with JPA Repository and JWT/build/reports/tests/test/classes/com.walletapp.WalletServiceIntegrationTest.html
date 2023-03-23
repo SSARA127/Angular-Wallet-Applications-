@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - WalletServiceIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>WalletServiceIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.walletapp.html">com.walletapp</a> &gt; WalletServiceIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.025s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">addFundsToWalletByIdTest()</td>
+<td class="success">0.053s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">addFundsToWalletByIdTestException()</td>
+<td class="success">0.049s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteWalletByIdTest()</td>
+<td class="success">0.089s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteWalletByIdThrowsExceptionTest()</td>
+<td class="success">0.043s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">fundtransferTest()</td>
+<td class="success">1.374s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getWalletByIdTest()</td>
+<td class="success">0.057s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getWalletByIdThrowsExceptionTest()</td>
+<td class="success">0.048s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">registerWalletTest()</td>
+<td class="success">0.109s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateWalletTest()</td>
+<td class="success">0.055s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateWalletTestold()</td>
+<td class="success">0.055s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">withdraFundsToWalletByIdTest()</td>
+<td class="success">0.093s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>01:19:40.183 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:19:40.229 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:19:40.347 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.walletapp.WalletServiceIntegrationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:19:40.384 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.walletapp.WalletServiceIntegrationTest], using SpringBootContextLoader
+01:19:40.396 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.walletapp.WalletServiceIntegrationTest]: class path resource [com/walletapp/WalletServiceIntegrationTest-context.xml] does not exist
+01:19:40.398 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.walletapp.WalletServiceIntegrationTest]: class path resource [com/walletapp/WalletServiceIntegrationTestContext.groovy] does not exist
+01:19:40.398 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.walletapp.WalletServiceIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:19:40.401 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.walletapp.WalletServiceIntegrationTest]: WalletServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:19:40.540 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.walletapp.WalletServiceIntegrationTest]
+01:19:40.781 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\SSARA127\Music\Projects\WalletApplication with JPA Repository and connection of database\build\classes\java\main\com\walletapp\WalletAppApplication.class]
+01:19:40.862 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.walletapp.WalletAppApplication for test class com.walletapp.WalletServiceIntegrationTest
+01:19:41.210 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.walletapp.WalletServiceIntegrationTest]: using defaults.
+01:19:41.213 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:19:41.301 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@25bcd0c7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32cb636e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@63cd604c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@40dd3977, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3a4e343, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6a1d204a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62dae245, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b6579e8, org.springframework.test.context.event.EventPublishingTestExecutionListener@6fff253c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6c6357f9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@591e58fa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3954d008, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2f94c4db, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@593e824f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@72ccd81a]
+01:19:41.318 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@15a902e7 testClass = WalletServiceIntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7876d598 testClass = WalletServiceIntegrationTest, locations = '{}', classes = '{class com.walletapp.WalletAppApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1b835480, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@149dd36b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@691939c9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@61a88b8c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@22bac7bc, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@fba92d3], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v2.7.9-SNAPSHOT)
+
+2023-03-23 01:19:42.860  INFO 7324 --- [    Test worker] c.w.WalletServiceIntegrationTest         : Starting WalletServiceIntegrationTest using Java 16.0.2 on WGC1009VT1F63 with PID 7324 (started by SSARA127 in C:\Users\SSARA127\Music\Projects\WalletApplication with JPA Repository and connection of database)
+2023-03-23 01:19:42.864  INFO 7324 --- [    Test worker] c.w.WalletServiceIntegrationTest         : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-03-23 01:19:46.741  INFO 7324 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 01:19:46.988  INFO 7324 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 208 ms. Found 1 JPA repository interfaces.
+2023-03-23 01:19:51.871  INFO 7324 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 01:19:52.463  INFO 7324 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-23 01:19:53.619  INFO 7324 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-23 01:19:54.081  INFO 7324 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-23 01:19:55.129  INFO 7324 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-23 01:19:55.233  INFO 7324 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-23 01:19:57.553  INFO 7324 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 01:19:57.580  INFO 7324 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 01:20:01.251  WARN 7324 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 01:20:02.440  INFO 7324 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/saravanan/walletstorage'
+2023-03-23 01:20:08.796  INFO 7324 --- [    Test worker] c.w.WalletServiceIntegrationTest         : Started WalletServiceIntegrationTest in 27.298 seconds (JVM running for 32.437)
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+From Wallet : Wallet{id=1, name_of_holder='saravanan', name_of_wallet='googlepay, email=saravanan@gmail.com,password=Sara@123,phoneNumber=9384196731,Date_of_wallet_creation=2023-03-23,Amount=34000.0}
+To Wallet : Wallet{id=2, name_of_holder='saravanan', name_of_wallet='googlepay, email=saravanan@gmail.com,password=Sara@123,phoneNumber=9384196731,Date_of_wallet_creation=2023-03-23,Amount=4000.0}
+Amount Transfered Successfully
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet found successfully!
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Successfully fund added to wallet!
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Successfully fund added to wallet!
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: delete from wallet_dto where id=?
+Wallet deleted successfully!
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: insert into wallet_dto (balanceamount, dateofwalletcreation, email, nameofholder, nameofwallet, password, phone_number, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Successfully fund withdrawn from wallet!
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet found successfully!
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet updated successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet found successfully!
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet register successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet updated successfully!
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Hibernate: update wallet_dto set balanceamount=?, dateofwalletcreation=?, email=?, nameofholder=?, nameofwallet=?, password=?, phone_number=? where id=?
+Hibernate: select walletdto0_.id as id1_0_0_, walletdto0_.balanceamount as balancea2_0_0_, walletdto0_.dateofwalletcreation as dateofwa3_0_0_, walletdto0_.email as email4_0_0_, walletdto0_.nameofholder as nameofho5_0_0_, walletdto0_.nameofwallet as nameofwa6_0_0_, walletdto0_.password as password7_0_0_, walletdto0_.phone_number as phone_nu8_0_0_ from wallet_dto walletdto0_ where walletdto0_.id=?
+Wallet found successfully!
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at Mar 23, 2023, 1:20:11 AM</p>
+</div>
+</div>
+</body>
+</html>
